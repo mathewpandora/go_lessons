@@ -1,0 +1,9 @@
+go version - версия
+go mod init mygo - инициализация новогот модуля
+go run file.go - запуск файла 
+go build - в директории которуб бидлим 
+./mygo - запуск скомпелироавпной программы
+go build -o prog main.go - сбилдить и дать название
+GOOS=windows GOARCH=386 go build -o prog main.go - билд под конрктерную систему, конкретную архитектуру
+go tool dist list - список под что можем сблдить 
+go install github.com/go-delve/cmd/dlv@latest - устаонвить дебаггер 
