@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math"
+	"math/rand/v2"
 )
 
 func main() {
@@ -50,4 +51,11 @@ func main() {
 	fmt.Println("max float32:", math.MaxFloat32)
 	fmt.Println("max uint16:", math.MaxUint16)
 	fmt.Println("max int16:", math.MaxInt16)
+
+	//random float:
+
+	min_ := 20.0
+	max_ := 50.0
+	var randomNum1 = rand.Float64()*(max_-min_) + min_ //от min  до max float
+	fmt.Println("Рандомное число: ", randomNum1)
 }
