@@ -56,6 +56,6 @@ func main() {
 
 	min_ := 20.0
 	max_ := 50.0
-	var randomNum1 = rand.Float64()*(max_-min_) + min_ //от min  до max float
+	var randomNum1 = rand.Float64()*(max_-min_+1) + min_ //от min  до max float диапозон 30 + страт (макс)
 	fmt.Println("Рандомное число: ", randomNum1)
 }
