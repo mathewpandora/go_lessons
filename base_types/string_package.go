@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+	//есть функция strings.Contains - проверяет вхождение подстроки в строку
 	str := "	fvcwc 	"
 	fmt.Println(strings.TrimSpace(str))
 	fmt.Println(str)
