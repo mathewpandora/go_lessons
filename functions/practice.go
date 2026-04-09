@@ -22,5 +22,20 @@ func main() {
 }
 
 func scurePassword(pass string) (isSecure bool) {
-	return utf8.RuneCountInString(pass) >= 6 && pass != strings.ToLower(pass) && pass != strings.ToUpper(pass)
+	return utf8.RuneCountInString(pass) >= 6 &&
+		pass != strings.ToLower(pass) &&
+		pass != strings.ToUpper(pass)
+}
+
+func scurePassword1(pass string) (isSecure bool) {
+	if utf8.RuneCountInString(pass) < 6 {
+		return false
+	}
+	if pass == strings.ToLower(pass) {
+		return false
+	}
+	if pass == strings.ToLower(pass) {
+		return false
+	}
+	return true
 }
