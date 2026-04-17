@@ -18,7 +18,7 @@ outloop: //назвали внешний цикл outloop
 
 func gotoEx() {
 	fmt.Println(1)
-	goto HERE
+	goto HERE //переместись на строку 23 (там где стоит HERE)
 HERE:
 	fmt.Println(3)
 }
