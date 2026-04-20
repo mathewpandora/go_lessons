@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	s := []int{1, 2, 3, 4, 5, 7}
-	fmt.Println(sum(s...))
+	fmt.Println(sum(s...)) //spread... оператор - распаковка слайса
 }
 
 func sum(values ...int) int { //values - это слайс как раз
@@ -16,5 +16,3 @@ func sum(values ...int) int { //values - это слайс как раз
 	return sum
 
 }
-
-//spread оператор
