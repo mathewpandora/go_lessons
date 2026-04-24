@@ -18,4 +18,5 @@ func main() {
 	fmt.Println(before, after)
 	slcie = append(before, after...)
 	fmt.Println(slcie)
+
 }
