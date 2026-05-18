@@ -20,6 +20,8 @@ func main() {
 			}
 		}
 		return false
+
+		//slices.Contains(value, 5)
 	})
 
 }

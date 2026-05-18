@@ -13,3 +13,4 @@ func main() {
 func ex(n1 int,
 	n2 int,
 	n3 int)
+//одна фукцния - одно дейтсвие 

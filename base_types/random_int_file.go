@@ -14,3 +14,6 @@ func main() {
 	fmt.Println(randomNum1)
 	fmt.Println(randomNum2)
 }
+
+
+res1, res2 := rand.IntN(12-2) + 2 + 1, rand.IntN(12-2) + 2 + 1;

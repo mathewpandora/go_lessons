@@ -15,6 +15,10 @@ func main() {
 	modifyValue1(user)
 
 	fmt.Println(user)
+
+	modifyValue2(&user)
+
+	fmt.Println(user)
 }
 
 func modifyValue1(u User4) {
@@ -22,5 +26,5 @@ func modifyValue1(u User4) {
 }
 
 func modifyValue2(u *User4) { //принимаем указатель
-	*u.Name = "fgbvrt"
+	u.Name = "fgbvrt"
 }

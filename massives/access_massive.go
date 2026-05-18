@@ -8,5 +8,5 @@ func main() {
 	fmt.Println(nums[2])
 	nums[2] = 34
 	fmt.Println(nums[2], nums)
-	//len для масива работает нормально
+	//len для масива работает нормально1
 }
